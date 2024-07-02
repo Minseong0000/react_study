@@ -1,0 +1,37 @@
+.businessItem {
+  min-width: 220px;
+  width: 25%;
+}
+
+.businessItem .businessImg {
+  background-color: #ddd;
+  height: 26vw;
+  overflow: hidden;
+}
+
+.businessItem .businessImg img {
+  width: 100%;
+  transition: .4s;
+}
+
+.businessItem .businessImg:hover img {
+  transform: scale(1.1);
+}
+
+.businessItem .title {
+  padding: 20px 0 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.6;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.businessItem .title strong {
+  display: block;
+}
+
+.businessList .businessItem .desc {
+  font-size: .95rem;
+  color: #333;
+}

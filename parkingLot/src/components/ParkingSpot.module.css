@@ -1,0 +1,22 @@
+.parkingSpot {
+  background-color: #ddd;
+  width: 50px;
+  height: 100px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #000;
+  border-top: 6px solid rgb(255, 215, 2);
+  cursor: pointer;
+}
+
+.disabled {
+  /* 선택할 수 없을 때 */
+  background-color: #999;
+  border-top-color: #333;
+}
+
+.selected {
+  /* 선택된 주차 공간의 색상 */
+  background-color: lightskyblue;
+  color: #fff;
+}

@@ -1,0 +1,33 @@
+.business {
+  max-width: 1600px;
+  width: 90vw;
+  margin: 50px auto;
+}
+
+.business h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.business h2+p {
+  text-align: center;
+  margin: 20px;
+}
+
+.primaryBtn {
+  display: block;
+  border: 1px solid #000;
+  border-radius: 20px;
+  width: 150px;
+  margin: 50px auto;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 20px;
+}
+
+.primaryBtn:hover {
+  background-color: #000;
+  color: #fff;
+}

@@ -1,0 +1,77 @@
+.business {
+  max-width: 1600px;
+  width: 90vw;
+  margin: 50px auto;
+}
+
+.business h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.business h2+p {
+  text-align: center;
+  margin: 20px;
+}
+
+.businessList {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5%;
+}
+
+.businessList .businessItem {
+  min-width: 220px;
+  width: 25%;
+}
+
+.businessList .businessItem .businessImg {
+  background-color: #ddd;
+  height: 26vw;
+  overflow: hidden;
+}
+
+.businessList .businessItem .businessImg img {
+  width: 100%;
+  transition: .4s;
+}
+
+.businessList .businessItem .businessImg:hover img {
+  transform: scale(1.1);
+}
+
+.businessList .businessItem .title {
+  padding: 20px 0 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.6;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.businessList .businessItem .title strong {
+  display: block;
+}
+
+.businessList .businessItem .desc {
+  font-size: .95rem;
+  color: #333;
+}
+
+.primaryBtn {
+  display: block;
+  border: 1px solid #000;
+  border-radius: 20px;
+  width: 150px;
+  margin: 50px auto;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 20px;
+}
+
+.primaryBtn:hover {
+  background-color: #000;
+  color: #fff;
+}
